@@ -1,0 +1,32 @@
+name: lcasr
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - cuda-cudart=11.7.99=0
+  - cuda-cupti=11.7.101=0
+  - cuda-libraries=11.7.1=0
+  - cuda-nvrtc=11.7.99=0
+  - cuda-nvtx=11.7.91=0
+  - cuda-runtime=11.7.1=0
+  - cython=0.29.33=py310heca2aa9_0
+  - librosa=0.10.0=pyhd8ed1ab_0
+  - matplotlib=3.7.1=py310hff52083_0
+  - numpy=1.23.5=py310h53a5b5f_0
+  - opencv=4.7.0=py310hff52083_1
+  - pandas=1.5.3=py310h9b08913_0
+  - python=3.10.9=he550d4f_0_cpython
+  - pytorch=2.0.0=py3.10_cuda11.7_cudnn8.5.0_0
+  - pytorch-cuda=11.7=h778d358_3
+  - scikit-learn=1.2.2=py310h209a8ca_0
+  - scipy=1.10.1=py310h8deb116_0
+  - torchaudio=2.0.0=py310_cu117
+  - torchvision=0.15.0=py310_cu117
+  - tqdm=4.65.0=pyhd8ed1ab_1
+  - pip:
+    - madmom==0.16.1
+    - pyyaml==6.0
+    - wandb==0.14.0
+prefix: /home/luis/miniconda3/envs/lcasr
